@@ -8,6 +8,8 @@ If you have any questions, please, reach out to the VR Chairs at vr-2020@ubicomp
 
 
 Yours faithfully,
+
 Danilo Gasques
+
 CO-VR Chair @ Ubicomp 2020
 
