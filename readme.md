@@ -4,12 +4,12 @@ Hello, this year, [UBICOMP](https://ubicomp.org) will happen **online**. After t
 
 
 Well, this repository hosts the landing page for https://ubicomp.gather, a domain where we hope all participants will gather!
-If you have any questions, please, reach out to the VR Chairs at vr-2020@ubicomp.org (yes!! we were going to do this in Virtual Reality before!)
+If you have any questions, please, reach out to the XR Chairs at xr-2020@ubicomp.org (yes! XR as in eXtended Reality!)
 
 
 Yours faithfully,
 
 Danilo Gasques
 
-CO-VR Chair @ Ubicomp 2020
+CO-XR Chair @ Ubicomp 2020
 
