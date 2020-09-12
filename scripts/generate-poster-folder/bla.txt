@@ -1,0 +1,98 @@
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10ui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10ui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10uia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10mobileui.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10mobileui.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10mobileuia.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10wearable.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10wearable.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10wearablea.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10systems.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10systems.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/10systemsa.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/2sensinga.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/3sensinga.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/4sensinga.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/5sensinga.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/6sensinga.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/1sensinga.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/7sensinga.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/8sensinga.png
+
+https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9sensing.html	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9sensing.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/ubicompiswc_loading.png	https://s3-us-west-2.amazonaws.com/ubicomp.gather/poster/9sensinga.png
+

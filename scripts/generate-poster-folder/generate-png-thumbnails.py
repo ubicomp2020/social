@@ -10,11 +10,17 @@ if len(sys.argv) < 4:
 
 # glow image for pasting later
 glow = Image.open("poster-glow.png")
+border = Image.open("poster-border.png")
 
 # default poster
 poster_default = Image.open("default-poster.png")
+poster_default.paste(border, (0,0), border)
 poster_default_glow = Image.open("default-poster.png")
+poster_default_glow.paste(border, (0,0), border)
+
 poster_default_glow.paste(glow, (0,0), glow)
+
+
 
 # poster_default_glow.save("default-poster-glow.png")
 posterMap = csv2map.transform(sys.argv[1], 'ID', 'ID in PCS')
@@ -39,7 +45,7 @@ for folder in posterMap:
                     print("--> found %s with %dx%d" % (document, candidate.width, candidate.height))
                     candidate = candidate.convert('RGBA')
                     candidate.thumbnail(target_resolution)
-                    candidateThumbnail = Image.new("RGBA",target_resolution, (0,0,0,0))
+                    candidateThumbnail = Image.new("RGBA",target_resolution, (255,255,255,255))
                     candidateThumbnail.paste(candidate, (target_resolution[0]//2 - candidate.width//2, target_resolution[1]//2 - candidate.height//2), candidate)
                     break
     else:
@@ -47,6 +53,7 @@ for folder in posterMap:
                 
     outputName = posterMap[folder][r"Whova/Gather"].replace(" ", "").lower()
     if candidateThumbnail is not None:
+        candidateThumbnail.paste(border, (0,0), border)
         candidateThumbnail.save(os.path.join(outpath, "%s.png" % outputName))
         candidateThumbnail.paste(glow, (0,0), glow)
         candidateThumbnail.save(os.path.join(outpath, "%sa.png" % outputName))
