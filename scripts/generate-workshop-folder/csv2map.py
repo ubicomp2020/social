@@ -1,6 +1,6 @@
 import csv
 
-def transform(filepath,id1,id2):
+def transform(filepath,id):
   result = {}
   with open(filepath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',', quotechar='"')
@@ -9,22 +9,16 @@ def transform(filepath,id1,id2):
     fields = next(csvreader)
     
     # id not found
-    if id1 not in fields:
-      print("Field %s not found in %s" % (id1,filepath))
+    if id not in fields:
+      print("Field %s not found in %s" % (id,filepath))
       return {}
-      
-    # id not found
-    if id2 not in fields:
-      print("Field %s not found in %s" % (id2,filepath))
-      return {}
-      
+           
     # finds the location
-    ID1Index = fields.index(id1)
-    ID2Index = fields.index(id2)
+    IDIndex = fields.index(id)
     
     # for each line, serialize it 
     for line in csvreader:
-      m = result["%s_%s" % (line[ID1Index], line[ID2Index])] = {}
+      m = result[line[IDIndex]] = {}
       for el,id in zip(line,range(len(line))):
         m[fields[id]] = el
         
