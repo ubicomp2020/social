@@ -29,7 +29,10 @@ table1_default = Image.open("default-table1.png")
 table1_default_glow = Image.open("default-table1.png")
 
 table2_default = Image.open("default-table2.png")
+table1_default_glow.paste(table_back, (-32,-32), table_back)
+                    
 table2_default_glow = Image.open("default-table2.png")
+table2_default_glow.paste(table_back, (-32,-32), table_back)
 
 icon_default = Image.open("default-teleporter.png")
 rug_default = Image.open("default-rug.png")
