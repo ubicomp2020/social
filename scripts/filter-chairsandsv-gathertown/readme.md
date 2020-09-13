@@ -1,0 +1,3 @@
+gather.town lets administrators protect gather.town spaces to only a select number of guests. The process of whitelisting is pretty trivial: upload a csv file with name,email,role, and affiliation per guest.
+
+This folder contains a script that filters out a CEVENT csv file and only spits out the guests that have Chair or SV in their affiliation. This is quite useful during the test phases of the space.

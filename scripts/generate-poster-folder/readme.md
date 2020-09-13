@@ -1,0 +1,1 @@
+This folder contains a script used to generate HTML files (`generate-html.py`) as well as the PNGs for each poster (`generate-png-thumbnails`)
