@@ -47,8 +47,6 @@ with io.open("template.html",'r',encoding='utf8') as f:
     templateHTML = "".join(f.readlines())
 
 
-privateSpaceMap = csv2map.transform(sys.argv[1], 'Space ID')
-
 outpath = sys.argv[2]
 target_table_resolution = (glow.width, glow.height)
 target_rug_resolution = (rug_default.width, rug_default.height)
@@ -181,7 +179,30 @@ for institution in missingInstitutions:
     
     
 #
-# second, go over CSV 
+# second, go over CSV to add links
 #
-
+print("")
+privateSpaceMap = csv2map.transform(sys.argv[1], 'Space ID')
+for privateSpace in privateSpaceMap:
+    print("Creating links to space %s" % privateSpace)
+    table1Link = privateSpaceMap[privateSpace]["Table 1 Link"].strip()
+    table2Link = privateSpaceMap[privateSpace]["Table 2 Link"].strip()
+    institution = privateSpaceMap[privateSpace]["Institution"].strip()
+    
+    # table 1
+    outputHtmlName = "s%stable1.html" % privateSpace
+    if len(table1Link) > 0:
+        with io.open(os.path.join(outpath, outputHtmlName),'w',encoding='utf8') as f:
+            f.write(templateHTML % (table1Link, institution, table1Link))
+    else:
+        with io.open(os.path.join(outpath, outputHtmlName),'w',encoding='utf8') as f:
+            f.write(templateHTMLBlank)
         
+    # table 2
+    outputHtmlName = "s%stable2.html" % privateSpace
+    if len(table2Link) > 0:
+        with io.open(os.path.join(outpath, outputHtmlName),'w',encoding='utf8') as f:
+            f.write(templateHTML % (table2Link, institution, table2Link))
+    else:
+        with io.open(os.path.join(outpath, outputHtmlName),'w',encoding='utf8') as f:
+            f.write(templateHTMLBlank)
