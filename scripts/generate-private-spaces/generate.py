@@ -79,7 +79,7 @@ for folderName in folders:
     if n[0]:
         spaceNumber = int(n[0])
         missingInstitutions.remove(spaceNumber)
-        print("--> Found Institution %d at %s" % (spaceNumber,folderName))
+        print("\n--> Found Institution %d at %s" % (spaceNumber,folderName))
         
         # now that we have a folder, we look for files
         folderPath = os.path.join("input", folderName)
@@ -158,5 +158,15 @@ for folderName in folders:
             
         if "icon" in expectedFiles:
             print("! icon.png not found: using default")
-            rug_default.save(os.path.join(outpath, "s%icon.png" % spaceNumber))
+            rug_default.save(os.path.join(outpath, "s%dicon.png" % spaceNumber))
+            
+print("\n")
+for institution in missingInstitutions:
+    print("--> Creating default images for institution %d" % institution)
+    table2_default.save(os.path.join(outpath, "s%dtable2.png" % institution))
+    table2_default_glow.save(os.path.join(outpath, "s%dtable2a.png" % institution))
+    table1_default.save(os.path.join(outpath, "s%dtable1.png" % institution))
+    table1_default_glow.save(os.path.join(outpath, "s%dtable1a.png" % institution))
+    rug_default.save(os.path.join(outpath, "s%drug.png" % institution))
+    rug_default.save(os.path.join(outpath, "s%dicon.png" % institution))
         
