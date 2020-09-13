@@ -13,6 +13,8 @@ if len(sys.argv) < 3:
 # glow image for pasting later
 glow = Image.open("table-glow.png")
 
+podium = Image.open("podium.png")
+
 # mask to cut out tables from rub
 rug_mask = Image.open("rug-mask.png")
 rug_mask= rug_mask.convert('RGBA')
@@ -68,6 +70,7 @@ def PasteImageAtCenter(image, resolution):
 
 # list all the folders inside the 'input' folder
 folders = os.listdir("input")
+missingInstitutions = set([x for x in range(16)])
 
 folderMap = {}
 for folderName in folders:
@@ -75,6 +78,7 @@ for folderName in folders:
     
     if n[0]:
         spaceNumber = int(n[0])
+        missingInstitutions.remove(spaceNumber)
         print("--> Found Institution %d at %s" % (spaceNumber,folderName))
         
         # now that we have a folder, we look for files
@@ -84,7 +88,7 @@ for folderName in folders:
         # checks
         
         # for each valid file, parse it and create a new file in <output dir>
-        expectedFiles = set ('table1', 'table2', 'rug', 'icon')
+        expectedFiles = set (['table1', 'table2', 'rug', 'icon'])
         for file in filesInFolder:
             fullpath = os.path.join(folderPath, file)
             filename, file_extension = os.path.splitext(file)
@@ -97,7 +101,7 @@ for folderName in folders:
                     print("> Table: %s in %s with %dx%d" % (filename, fullpath, tableIMG.width, tableIMG.height))
                     
                     # fixes table image within the expected resolution
-                    newTableIMG = PasteImageAtCenter(tableIMG,target_table_resolution)
+                    newTableIMG = PasteImageAtCenter(tableIMG, target_table_resolution)
                     
                     # saves table
                     newTableIMG.save(os.path.join(outpath, "s%d%s.png" % (spaceNumber,filename)))
@@ -128,6 +132,7 @@ for folderName in folders:
                     for inputPixel,inputMaskPixel in zip(inputData,inputMaskData):
                         newRugData.append((inputPixel[0], inputPixel[1],inputPixel[2], inputMaskPixel[3]))
                     newrugIMG.putdata(newRugData)
+                    newrugIMG.paste(podium, (10*32,14*32), podium)
                     
                     # saves icon
                     newrugIMG.save(os.path.join(outpath, "s%d%s.png" % (spaceNumber,filename)),'PNG')
