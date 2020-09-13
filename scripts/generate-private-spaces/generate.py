@@ -13,7 +13,11 @@ if len(sys.argv) < 3:
 # glow image for pasting later
 glow = Image.open("table-glow.png")
 
+# podium to be added on top of the rug
 podium = Image.open("podium.png")
+
+# table background
+table_back = Image.open("table-background.png")
 
 # mask to cut out tables from rub
 rug_mask = Image.open("rug-mask.png")
@@ -101,7 +105,12 @@ for folderName in folders:
                     print("> Table: %s in %s with %dx%d" % (filename, fullpath, tableIMG.width, tableIMG.height))
                     
                     # fixes table image within the expected resolution
-                    newTableIMG = PasteImageAtCenter(tableIMG, target_table_resolution)
+                    newTableIMG = Image.new("RGBA",target_table_resolution, (255,255,255,0))
+                    newTableIMG.paste(table_back, (-32,-32), table_back)
+                    
+                    tableIMG = tableIMG.convert('RGBA')
+                    tableIMG.thumbnail(target_table_resolution)
+                    newTableIMG.paste(tableIMG, (target_table_resolution[0]//2 - tableIMG.width//2, target_table_resolution[1]//2 - tableIMG.height//2), tableIMG)
                     
                     # saves table
                     newTableIMG.save(os.path.join(outpath, "s%d%s.png" % (spaceNumber,filename)))
@@ -169,4 +178,10 @@ for institution in missingInstitutions:
     table1_default_glow.save(os.path.join(outpath, "s%dtable1a.png" % institution))
     rug_default.save(os.path.join(outpath, "s%drug.png" % institution))
     rug_default.save(os.path.join(outpath, "s%dicon.png" % institution))
+    
+    
+#
+# second, go over CSV 
+#
+
         
