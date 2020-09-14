@@ -75,7 +75,7 @@ def PasteImageAtCenter(image, resolution):
 
 # list all the folders inside the 'input' folder
 folders = os.listdir("input")
-missingInstitutions = set([x for x in range(16)])
+missingInstitutions = set([x for x in range(24)])
 
 folderMap = {}
 for folderName in folders:
