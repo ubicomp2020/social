@@ -144,7 +144,7 @@ for folderName in folders:
 
                     newRugData = []
                     for inputPixel,inputMaskPixel in zip(inputData,inputMaskData):
-                        newRugData.append((inputPixel[0], inputPixel[1],inputPixel[2], inputMaskPixel[3]))
+                        newRugData.append((inputPixel[0], inputPixel[1],inputPixel[2], min(inputPixel[3],inputMaskPixel[3])))
                     newrugIMG.putdata(newRugData)
                     newrugIMG.paste(podium, (10*32,14*32), podium)
                     
