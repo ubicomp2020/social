@@ -19,6 +19,9 @@ podium = Image.open("podium.png")
 # table background
 table_back = Image.open("table-background.png")
 
+# icon background 
+icon_back = Image.open("icon-background.png")
+
 # mask to cut out tables from rub
 rug_mask = Image.open("rug-mask.png")
 rug_mask= rug_mask.convert('RGBA')
@@ -60,10 +63,10 @@ valid_file_name = set(['table1,rug,icon,table2'])
 valid_table_name = set(['table1', 'table2'])
 
 # helper method
-def PasteImageAtCenter(image, resolution):
+def PasteImageAtCenter(image, resolution, alpha=0):
     image = image.convert('RGBA')
     image.thumbnail(resolution)
-    newImage = Image.new("RGBA",resolution, (255,255,255,0))
+    newImage = Image.new("RGBA",resolution, (255,255,255,alpha))
     newImage.paste(image, (resolution[0]//2 - image.width//2, resolution[1]//2 - image.height//2), image)
     return newImage
 
@@ -74,20 +77,21 @@ def PasteImageAtCenter(image, resolution):
 #
 
 # list all the folders inside the 'input' folder
-folders = os.listdir("input")
+inputDir = r"G:\.shortcut-targets-by-id\16SvrMycGn9YosNWUxng7tlTnRfwLZizA\UBICOMP_2020_13b_VIRTUAL-REALITY\05_GatherTown Interactive Documents\Private Gatherings"
+folders = os.listdir(inputDir)
 missingInstitutions = set([x for x in range(24)])
 
 folderMap = {}
 for folderName in folders:
     n = re.search("(\d+)",folderName)
     
-    if n[0]:
+    if n:
         spaceNumber = int(n[0])
         missingInstitutions.remove(spaceNumber)
         print("\n--> Found Institution %d at %s" % (spaceNumber,folderName))
         
         # now that we have a folder, we look for files
-        folderPath = os.path.join("input", folderName)
+        folderPath = os.path.join(inputDir, folderName)
         filesInFolder = os.listdir(folderPath)
         
         # checks
@@ -124,7 +128,7 @@ for folderName in folders:
                     iconIMG = Image.open(fullpath)
                     print("> Icon/Teleporter: %s in %s with %dx%d" % (filename, fullpath, iconIMG.width, iconIMG.height))
                     # fixes table image within the expected resolution
-                    newiconIMG = PasteImageAtCenter(iconIMG,target_icon_resolution)
+                    newiconIMG = PasteImageAtCenter(iconIMG,target_icon_resolution, 255)
                     
                     # saves icon
                     newiconIMG.save(os.path.join(outpath, "s%d%s.png" % (spaceNumber,filename)))
